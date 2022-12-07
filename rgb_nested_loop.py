@@ -21,6 +21,9 @@ def main():
     # first while... loop, containing the counter
     # for the first value in RGB, R / red.
     while counter1 <= 255:
+        # got the RGB color printer format thing from carolyn because
+        # i did not understand how to format it right
+        # thank you carolyn i love you
         print(
                 "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
                     str(counter1),
@@ -40,6 +43,10 @@ def main():
         # second while...loop, containing the counter
         # for the second value in RGB, G / green.
         while counter2 < 255:
+            # once again, got the RGB color printer format thing
+            # from carolyn because
+            # i did not understand how to format it right
+            # thank you carolyn i love you
             print(
                 "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
                     str(counter1),
@@ -59,6 +66,11 @@ def main():
             # third while...loop, containing the counter
             # for the third value in RGB, B / blue.
             while counter3 < 255:
+                # and again, got the RGB color printer format thing
+                # from carolyn because
+                # i did not understand how to format it right
+                # thank you carolyn i still love you
+                # from the last time I said it :)
                 print(
                     "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
                     str(counter1),
