@@ -29,13 +29,13 @@ def main():
                     str(counter1),
                     str(counter2),
                     str(counter3),
-                    "RGB("
+                    " "
                     + str(counter1)
-                    + ","
+                    + ", "
                     + str(counter2)
-                    + ","
+                    + ", "
                     + str(counter3)
-                    + ")",
+                    + " ",
                     )
             )
         if counter2 and counter3 == 255:
@@ -52,13 +52,13 @@ def main():
                     str(counter1),
                     str(counter2),
                     str(counter3),
-                    "RGB("
+                    " "
                     + str(counter1)
-                    + ","
+                    + ", "
                     + str(counter2)
-                    + ","
+                    + ", "
                     + str(counter3)
-                    + ")",
+                    + " ",
                     )
             )
             if counter3 == 255:
@@ -76,13 +76,13 @@ def main():
                     str(counter1),
                         str(counter2),
                         str(counter3),
-                        "RGB("
+                        " "
                         + str(counter1)
-                        + ","
+                        + ", "
                         + str(counter2)
-                        + ","
+                        + ", "
                         + str(counter3)
-                        + ")",
+                        + " ",
                     )
                 )
                 counter3 = counter3 + 1
