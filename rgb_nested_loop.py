@@ -25,19 +25,13 @@ def main():
         # i did not understand how to format it right
         # thank you carolyn i love you
         print(
-                "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
-                    str(counter1),
-                    str(counter2),
-                    str(counter3),
-                    " "
-                    + str(counter1)
-                    + ", "
-                    + str(counter2)
-                    + ", "
-                    + str(counter3)
-                    + " ",
-                    )
+            "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
+                str(counter1),
+                str(counter2),
+                str(counter3),
+                " " + str(counter1) + ", " + str(counter2) + ", " + str(counter3) + " ",
             )
+        )
         if counter2 and counter3 == 255:
             counter1 = counter1 + 1
         # second while...loop, containing the counter
@@ -59,7 +53,7 @@ def main():
                     + ", "
                     + str(counter3)
                     + " ",
-                    )
+                )
             )
             if counter3 == 255:
                 counter2 = counter2 + 1
@@ -73,7 +67,7 @@ def main():
                 # from the last time I said it :)
                 print(
                     "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(
-                    str(counter1),
+                        str(counter1),
                         str(counter2),
                         str(counter3),
                         " "
